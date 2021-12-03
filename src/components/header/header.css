@@ -1,0 +1,34 @@
+.title-brand {
+	color: #084179;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.navbar {
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title-brand span {
+	color: #fb6235;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.form-control-search {
+	color: #abb5c1;
+	font-weight: 400;
+	border: 1px solid #084179;
+	padding: 0.3rem 1.2rem;
+	width: 400px;
+	border-radius: 20px;
+}
+
+.form-control-search:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.container-fluid {
+	padding: 0 5%;
+}

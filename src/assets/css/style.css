@@ -1,0 +1,148 @@
+.warpper {
+	padding: 0;
+	border: 1px solid #eee;
+	border-radius: 15px;
+	flex-grow: 1;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.wd-warpper {
+	width: 100%;
+}
+.wdt-warpper {
+	width: 33.33%;
+}
+
+.punchIn {
+	margin-left: 30px;
+	width: calc(100% - 8rem);
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	border-radius: 15px;
+	border: 1px solid #eee;
+}
+.text {
+	font-weight: 600;
+}
+
+.wdr-warpper {
+	width: 33.33%;
+}
+
+.warpper::nth-child(2) {
+	flex-shrink: 1;
+	flex-grow: none;
+}
+
+.punch {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5rem 2.5rem;
+	margin-left: 35px;
+}
+
+.circle {
+	position: absolute;
+	left: -6px;
+	top: 18px;
+	background-color: #fff;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 3px solid #85e1bf;
+	z-index: 99999;
+}
+
+.line {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	z-index: 1;
+	content: ' ';
+	background-color: #eee;
+	width: 0.01rem;
+	height: 100%;
+}
+
+.p-title {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.time {
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	color: gray;
+}
+
+.content-page {
+	margin-top: 30px;
+	padding: 0 2rem;
+	width: 100%;
+}
+
+.container-dash {
+	width: 100%;
+}
+
+.content {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.dash {
+	display: flex;
+	height: 100%;
+	padding: 2rem;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 12px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+table th {
+	border-top: 1px solid #eee;
+	line-height: 2;
+	padding: 0.7rem 0;
+}
+
+.title-tab {
+	color: #3f9af3;
+	font-size: 20px;
+	line-height: 2;
+	padding: 0 1.5rem;
+}
+.page-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 3;
+}
+
+.dash-group {
+	display: flex;
+	width: 100%;
+	justify-content: stretch;
+}
+
+table td {
+	border-left: 1px solid #eee;
+	text-align: center;
+	line-height: 3;
+}
+
+.ligne:not(:last-child) {
+	border: 1px solid #eee;
+	outline: none;
+}

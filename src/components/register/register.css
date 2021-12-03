@@ -1,0 +1,122 @@
+.container-login {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: calc(100vh);
+	background-color: #fff;
+}
+
+.left-side {
+	display: flex;
+	flex-direction: column;
+	padding: 10%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.title {
+	color: #084179;
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.title span {
+	color: #fb6235;
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.logo-auth {
+	line-height: 0;
+}
+
+.logo-auth p {
+	color: #084179;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.title-log {
+	text-align: center;
+	color: #abb5c1;
+	padding: 1.5rem 0;
+	font-weight: 500;
+}
+
+.inscription {
+	text-align: center;
+	color: #2e2e2e;
+	padding: 1.5rem 0;
+	font-weight: 500;
+}
+
+.inscrit {
+	color: #fb6235;
+	cursor: pointer;
+}
+
+.inscrit:hover {
+	text-decoration: underline;
+}
+
+.form-control {
+	color: #abb5c1;
+	font-weight: 400;
+	border: 2px solid #084179;
+	padding: 1rem;
+	width: 100%;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+	border: 2px solid #120441;
+}
+
+.right-side {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 10%;
+	background-color: #084179;
+	border-radius: 60% 0% 0% 20% / 70% 50% 30% 25%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-side:before {
+	box-shadow: 0 20px 0 0 #522d5b;
+}
+
+.btn-primary {
+	border-radius: 40px;
+
+	color: #fff;
+	background-color: #084179;
+	border: none;
+	padding: 1rem 4.5rem;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.login-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+	.container-login {
+		flex-direction: column;
+	}
+}
